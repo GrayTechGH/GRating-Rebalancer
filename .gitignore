@@ -16,3 +16,5 @@ dist/
 *.egg-info/
 
 _docs/
+Agents.md
+AGENTS.md
