@@ -1,0 +1,220 @@
+# Image reference for GRating Rebalancer wiki pages.
+# Paths are relative to the repository root.
+base_raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main
+
+images:
+  - id: main_first_start
+    group: main
+    title: First Start
+    file: main-first_start.png
+    path: _wiki_resources/images/main-first_start.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-first_start.png
+    alt: GRating Rebalancer Main tab before initial setup
+    caption: Main tab before an output column, rating target, and locked map are configured.
+    width: 813
+    height: 486
+    size_bytes: 22560
+
+  - id: main_pre_run_start
+    group: main
+    title: Ready To Run
+    file: main-pre_run_start.png
+    path: _wiki_resources/images/main-pre_run_start.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-pre_run_start.png
+    alt: GRating Rebalancer Main tab configured before running
+    caption: Main tab after choosing output and rating options before a run.
+    width: 813
+    height: 486
+    size_bytes: 24830
+
+  - id: main_map_locked
+    group: main
+    title: Locked Map
+    file: main-map_locked.png
+    path: _wiki_resources/images/main-map_locked.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-map_locked.png
+    alt: Main tab showing an active locked map
+    caption: Main tab with a locked rating-to-percentile map available for consistent future runs.
+    width: 813
+    height: 486
+    size_bytes: 25518
+
+  - id: main_percentile
+    group: main
+    title: Percentile Rating Type
+    file: main-percentile.png
+    path: _wiki_resources/images/main-percentile.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-percentile.png
+    alt: Main tab configured for percentile rating output
+    caption: Rating type set to percentile output.
+    width: 813
+    height: 486
+    size_bytes: 25518
+
+  - id: main_decimal
+    group: main
+    title: Decimal Rating Type
+    file: main-decimal.png
+    path: _wiki_resources/images/main-decimal.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-decimal.png
+    alt: Main tab configured for decimal rating output
+    caption: Rating type set to decimal output.
+    width: 813
+    height: 486
+    size_bytes: 25607
+
+  - id: main_range
+    group: main
+    title: Custom Range Rating Type
+    file: main-range.png
+    path: _wiki_resources/images/main-range.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-range.png
+    alt: Main tab configured for custom range rating output
+    caption: Rating type set to a user-defined numeric range.
+    width: 813
+    height: 486
+    size_bytes: 27427
+
+  - id: main_star_rating
+    group: main
+    title: Star Rating Type
+    file: main-star_rating.png
+    path: _wiki_resources/images/main-star_rating.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/main-star_rating.png
+    alt: Main tab configured for Calibre star rating output
+    caption: Rating type set to Calibre star rating output.
+    width: 813
+    height: 486
+    size_bytes: 26307
+
+  - id: series_run_start
+    group: series
+    title: Series Tab Before Run
+    file: series-run_start.png
+    path: _wiki_resources/images/series-run_start.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/series-run_start.png
+    alt: Series tab before a locked map has populated the preview table
+    caption: Series tab before learned map data is available for the preview table.
+    width: 813
+    height: 486
+    size_bytes: 19690
+
+  - id: series_mapped
+    group: series
+    title: Series Tab With Map Data
+    file: series-mapped.png
+    path: _wiki_resources/images/series-mapped.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/series-mapped.png
+    alt: Series tab showing mapped position bias and correction values
+    caption: Series tab after map data is available for position bias and correction preview.
+    width: 813
+    height: 486
+    size_bytes: 21963
+
+  - id: distribution_uniform
+    group: distribution
+    title: Uniform Distribution
+    file: distribution-uniform.png
+    path: _wiki_resources/images/distribution-uniform.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/distribution-uniform.png
+    alt: Distribution tab configured for uniform output
+    caption: Uniform distribution settings and preview.
+    width: 813
+    height: 486
+    size_bytes: 17152
+
+  - id: distribution_bell_curve_center
+    group: distribution
+    title: Bell Curve Center Peak
+    file: distribution-bell_curve_center.png
+    path: _wiki_resources/images/distribution-bell_curve_center.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/distribution-bell_curve_center.png
+    alt: Distribution tab configured for a centered bell curve
+    caption: Bell curve distribution with a centered peak.
+    width: 813
+    height: 486
+    size_bytes: 20590
+
+  - id: distribution_bell_curve_right
+    group: distribution
+    title: Bell Curve Right Peak
+    file: distribution-bell_curve_right.png
+    path: _wiki_resources/images/distribution-bell_curve_right.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/distribution-bell_curve_right.png
+    alt: Distribution tab configured for a right-shifted bell curve
+    caption: Bell curve distribution with a right-shifted peak.
+    width: 813
+    height: 486
+    size_bytes: 20507
+
+  - id: distribution_positive_skew
+    group: distribution
+    title: Positive Skew Distribution
+    file: distribution-positive_skew.png
+    path: _wiki_resources/images/distribution-positive_skew.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/distribution-positive_skew.png
+    alt: Distribution tab configured for positive skew output
+    caption: Positive skew distribution settings and preview.
+    width: 813
+    height: 486
+    size_bytes: 18206
+
+  - id: distribution_j_curve
+    group: distribution
+    title: J-Curve Distribution
+    file: distribution-j_curve.png
+    path: _wiki_resources/images/distribution-j_curve.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/distribution-j_curve.png
+    alt: Distribution tab configured for J-Curve output
+    caption: J-Curve distribution settings and preview.
+    width: 813
+    height: 486
+    size_bytes: 17994
+
+  - id: run_warning
+    group: run
+    title: Run Warning
+    file: run-warning.png
+    path: _wiki_resources/images/run-warning.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/run-warning.png
+    alt: Warning dialog shown before running GRating Rebalancer
+    caption: Warning dialog shown when the run has conditions the user should review.
+    width: 494
+    height: 148
+    size_bytes: 14745
+
+  - id: run_lock_yes_no
+    group: run
+    title: Lock Map Prompt
+    file: run-lock_yes_no.png
+    path: _wiki_resources/images/run-lock_yes_no.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/run-lock_yes_no.png
+    alt: Prompt asking whether to lock the map after a run
+    caption: Prompt offering to lock the generated map after a successful run.
+    width: 494
+    height: 148
+    size_bytes: 13640
+
+  - id: run_results
+    group: run
+    title: Run Results
+    file: run-results.png
+    path: _wiki_resources/images/run-results.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/run-results.png
+    alt: Results dialog after running GRating Rebalancer
+    caption: Results dialog summarizing written outputs after a run.
+    width: 494
+    height: 204
+    size_bytes: 13063
+
+  - id: error_cannot_run
+    group: errors
+    title: Cannot Run Error
+    file: error-cannot_run.png
+    path: _wiki_resources/images/error-cannot_run.png
+    raw_url: https://raw.githubusercontent.com/GrayTechGH/GRating-Rebalancer/main/_wiki_resources/images/error-cannot_run.png
+    alt: Error dialog explaining why GRating Rebalancer cannot run
+    caption: Error dialog shown when required setup or data is missing.
+    width: 494
+    height: 148
+    size_bytes: 11015
